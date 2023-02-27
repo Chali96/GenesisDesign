@@ -1,0 +1,221 @@
+body{
+    width: 1360px;
+    height: 3840px;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-content: center;
+    width: 100%;
+    max-width: 1180px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+
+
+}
+
+
+
+.firstsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.shootingstars{
+    display: flex;
+    justify-content: flex-start; 
+    text-align: start;
+    flex-direction: column;
+    width: 635px;
+    height: 251px;
+}
+.textSS{
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+letter-spacing: -0.423077px;
+color: #4A4FF2;
+}
+
+.hello-im{
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #111111;
+}
+
+.productdesigner{
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+color: #4A4FF2;
+}
+.blue{
+    color: #4A4FF2;
+}
+
+.Designisabout{
+    display: flex;
+   justify-content: flex-end;
+   padding-right: 200px;
+    font-family: 'Mulish';
+font-style: italic;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #111111;
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.the-line{
+    display: block;
+  height: 2px;
+  width: 30px;
+  background-color: black;
+  border-radius: 0px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 4fr);
+    grid-gap: 2px; 
+    justify-content: center;
+    align-content: center;
+
+}
+
+.grid-container>div{
+    grid-column: span 4;
+}
+
+.welovetext{
+    color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 100px;
+    
+}
+
+.welovepara{
+    width: 635px;
+    height: 251px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.multimedia{
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+opacity: 0.6;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin: 150px;
+
+}
+
+.Awwwards{
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    color: #111111;
+}
+
+.BestNavi{
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    color: #111111;
+}
+
+
+
+.SiteOf {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.strong1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Application{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+mix-blend-mode: normal;
+opacity: 0.6;
+display: flex;
+flex-direction: column;
+}
+
+//*project-detail*//
+
+.freshTP{
+    display: flex;
+    justify-content: flex-start; 
+    text-align: start;
+    flex-direction: column;
+    width: 635px;
+    height: 251px; 
+    margin-left: 50px;
+}
+
+.freshtext{
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+margin-top: 100px;
+margin-left: 20px;
+}
+
+.freshpara{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.detail-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 700px;
+    width: 335px;
+    height: 343px;
+    left: 900px;
+    top: 222px;
+}
+
+.LeftDetail{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.RightDetail{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
