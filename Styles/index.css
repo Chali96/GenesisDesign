@@ -5,6 +5,7 @@ body {
   font-style: normal;
 }
 
+/*Header section*/
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -22,6 +23,7 @@ body {
   line-height: 23px;
 }
 
+/* First Section start*/
 .firstsection {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,7 +107,10 @@ body {
   margin-top: 5px;
   margin-bottom: 10px;
 }
+/* First Section end*/
 
+
+/* Grid-container Start*/
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -124,6 +129,9 @@ body {
   grid-column: span 4;
 }
 
+/* Grid-container Ends*/
+
+/* Welovetext Starts*/
 .welovetext {
   color: #111111;
   display: -webkit-box;
@@ -163,7 +171,10 @@ body {
           justify-content: flex-end;
   margin: 150px;
 }
+/* Welovetext Ends*/
 
+
+/* Awwards Starts*/
 .Awwwards {
   display: -ms-grid;
   display: grid;
@@ -218,68 +229,5 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+/* Awwards Ends*/
 
-.freshTP {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  text-align: start;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 635px;
-  height: 251px;
-  margin-left: 50px;
-}
-
-.freshtext {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 55px;
-  margin-top: 100px;
-  margin-left: 20px;
-}
-
-.freshpara {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  mix-blend-mode: normal;
-  opacity: 0.8;
-}
-
-.detail-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-left: 700px;
-  width: 335px;
-  height: 343px;
-  left: 900px;
-  top: 222px;
-}
-
-.LeftDetail {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
-
-.RightDetail {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-}
