@@ -1,3 +1,4 @@
+/* Home Page START*/
 body{
     width: 1360px;
     height: 3840px;
@@ -5,6 +6,7 @@ body{
     font-style: normal;
 }
 
+/*Header section*/
 .header {
     display: flex;
     justify-content: space-between; 
@@ -17,7 +19,16 @@ body{
     line-height: 23px;
 }
 
+.navbar{
+    text-decoration: none;
 
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* First Section start*/
 .firstsection{
     display: flex;
     flex-direction: row;
@@ -81,7 +92,9 @@ opacity: 0.6;
   margin-top: 5px;
   margin-bottom: 10px;
 }
+/* First Section end*/
 
+/* Grid-container Start*/
 .grid-container {
     display: grid;
     grid-template-columns: repeat(12, 4fr);
@@ -94,7 +107,9 @@ opacity: 0.6;
 .grid-container>div{
     grid-column: span 4;
 }
+/* Grid-container Ends*/
 
+/* Welovetext Starts*/
 .welovetext{
     color: #111111;
     display: flex;
@@ -123,7 +138,9 @@ justify-content: flex-end;
 margin: 150px;
 
 }
+/* Welovetext Ends*/
 
+/* Awwards Starts*/
 .Awwwards{
     display: grid;
     grid-template: 50% 50% / 50% 50%;
@@ -135,8 +152,6 @@ margin: 150px;
     grid-template: 50% 50% / 50% 50%;
     color: #111111;
 }
-
-
 
 .SiteOf {
     font-weight: 700;
@@ -162,9 +177,13 @@ opacity: 0.6;
 display: flex;
 flex-direction: column;
 }
+/* Awwards Ends*/
 
-//*project-detail*//
+/* Home Page END*/
 
+
+/* Project Details Page START */
+/*project-detail*/
 .freshTP{
     display: flex;
     justify-content: flex-start; 
@@ -215,4 +234,20 @@ margin-left: 20px;
     line-height: 23px;
 }
 
+.projectimg1{
+
+}
+.projectparagraph{
+
+}
+.projectimages{
+
+}
+.footer{
+
+}
+
+.socialslogo{
+
+}
 
