@@ -1492,6 +1492,14 @@ body {
 
 /* Welovetext Ends*/
 /* Awwards Starts*/
+.borderline {
+  display: block;
+  height: 2px;
+  max-width: 1110px;
+  background: #D8D8D8;
+  margin-left: 200px;
+}
+
 .Awwwards {
   display: -ms-grid;
   display: grid;
