@@ -1556,7 +1556,6 @@ body {
 }
 
 /* Awwards Ends*/
-/* Home Page END*/
 /* Project Details Page START */
 /*project-detail*/
 .freshTP {
@@ -1625,59 +1624,6 @@ body {
 }
 
 /* Footer starts */
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  max-width: 1180px;
-  height: 23px;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 23px;
-  margin-top: 40px;
-}
-
-.logo {
-  margin-left: 40px;
-  margin-top: 20px;
-}
-
-.navbar a {
-  text-decoration: none;
-  margin-left: 40px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
-  letter-spacing: -0.346154px;
-  color: #111111;
-}
-
-.links {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  list-style: none;
-}
-
-.link1:hover, .link2:hover {
-  color: #4A4FF2;
-  text-decoration: underline;
-}
-
 .socialslogo img {
   margin-top: 20px;
   margin: 10px;
