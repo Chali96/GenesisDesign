@@ -1,0 +1,150 @@
+body{
+    width: 1360px;
+    height: 3840px;
+    font-family: 'Mulish';
+    font-style: normal;
+}
+
+/*HEADER section*/
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-content: center;
+    max-width: 1180px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 40px;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.links{
+display: flex;
+flex-direction: row;
+list-style: none;
+}
+
+ .link1:hover, .link2:hover{
+    color: #4A4FF2;
+    text-decoration: underline;
+ }
+
+
+
+/*project-detail*/
+.freshTP{
+    display: flex;
+    justify-content: flex-start; 
+    text-align: start;
+    flex-direction: column;
+    width: 635px;
+    height: 251px; 
+    margin-left: 50px;
+}
+
+.freshtext{
+font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+margin-top: 100px;
+margin-left: 20px;
+}
+
+.freshpara{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.detail-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 700px;
+    width: 335px;
+    height: 343px;
+    left: 900px;
+    top: 222px;
+}
+
+.LeftDetail{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.RightDetail{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+
+/*FOOTER*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-content: center;
+    max-width: 1180px;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-top: 40px;
+}
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
+
+.navbar a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+.links{
+display: flex;
+flex-direction: row;
+list-style: none;
+
+}
+
+
+ .link1:hover, .link2:hover{
+    color: #4A4FF2;
+    text-decoration: underline;
+ }
+
+ .socialslogo img{
+   margin-top: 20px;
+   margin: 10px;
+ }
