@@ -47,42 +47,50 @@ list-style: none;
 
 
 
-/*project-detail*/
-.freshTP{
+/*Text-container*/
+.text-container{
     display: flex;
     justify-content: flex-start; 
     text-align: start;
     flex-direction: column;
-    width: 635px;
-    height: 251px; 
+    height: 120px; 
     margin-left: 50px;
+    margin-top: 60px;
 }
 
-.freshtext{
+.text-container-item1{
 font-weight: 700;
 font-size: 40px;
 line-height: 55px;
-margin-top: 100px;
-margin-left: 20px;
+width: 495px;
+height: 130px;
 }
 
-.freshpara{
+.text-container-item2{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     mix-blend-mode: normal;
     opacity: 0.8;
+    width: 635px;
+height: 222px;
 }
 
+
+/*Detail-info*/
 .detail-info{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    margin-left: 700px;
-    width: 335px;
-    height: 343px;
-    left: 900px;
-    top: 222px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.borderline{
+    background: white;
+opacity: 0.6;
+border-bottom: 1px solid #979797;
+margin-bottom: 40px;
 }
 
 .LeftDetail{
@@ -91,17 +99,68 @@ margin-left: 20px;
     line-height: 23px;
     mix-blend-mode: normal;
     opacity: 0.5;
+    color: #111111;
+
 }
 .RightDetail{
     font-weight: 700;
     font-size: 18px;
     line-height: 23px;
+    color: #111111;
+}
+
+
+/*Projectimg1*/
+.projectimg1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/*projectparagraph*/
+.projectparagraph{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: start;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #111111;
+mix-blend-mode: normal;
+opacity: 0.8;
+margin: 30px;
+
+}
+
+
+
+/*Projectimages*/
+.projectimages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+
 }
 
 
 /*FOOTER*/
 
- .socialslogo img{
-   margin-top: 20px;
-   margin: 10px;
+.footer{
+    height: 80px;
+     
  }
+ 
+ .logo{
+     padding-left: 70px;
+ }
+ 
+ .links{
+     padding-left: 160px;
+ }
+  .socialslogo img{
+    margin-top: 20px;
+    margin: 10px;
+  }
