@@ -73,8 +73,9 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 120px;
-  margin-left: 50px;
-  margin-top: 60px;
+  margin-left: 90px;
+  margin-top: 90px;
+  padding-top: 70px;
 }
 
 .text-container-item1 {
@@ -107,15 +108,15 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  margin: 20px;
-  margin-bottom: 50px;
+  margin: 10px;
+  padding-bottom: 20px;
 }
 
 .borderline {
   background: white;
   opacity: 0.6;
   border-bottom: 1px solid #979797;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 
 .LeftDetail {
