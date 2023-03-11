@@ -107,6 +107,27 @@ body {
           flex-direction: column;
   width: 475px;
   padding-top: 50px;
+  gap: 25px;
+}
+
+.form-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.form-input {
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: none;
+}
+
+.form-input--border-bottom {
+  border-bottom: 1px solid #979797;
 }
 
 .button {
