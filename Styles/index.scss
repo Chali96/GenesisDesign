@@ -267,9 +267,10 @@ margin: 150px;
 }
 
 .container-1{
-    display: grid;
-    grid-template: 50% 50% / 50% 50%;
-    color: #111111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 50px;
 }
 
 .container-1-item1{
@@ -316,6 +317,10 @@ flex-direction: column;
 
 /*Container-2*/
 .container-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 50px;
 
 }
 
