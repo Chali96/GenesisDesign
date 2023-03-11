@@ -46,6 +46,47 @@ list-style: none;
     text-decoration: underline;
  }
 
+ /*text-container*/
+ .text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px;
+    
+ }
+ .text-container-left{
+    padding-right: 350px;
+ }
+
+ .text-container-item1{
+    font-weight: 700;
+font-size: 40px;
+line-height: 55px;
+width: 475px;
+height: 174px;
+color: #111111;
+ }
+
+ .text-container-item2{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+width: 445px;
+height: 56px;
+color: #111111;
+mix-blend-mode: normal;
+opacity: 0.8;
+ }
+
+ .form{
+    
+ }
+/*image-container*/
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
  /*FOOTER*/
 
