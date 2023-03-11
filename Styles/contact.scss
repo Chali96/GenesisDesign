@@ -61,7 +61,7 @@ body{
     font-weight: 700;
     font-size: 40px;
     line-height: 55px;
-    width: 475px;
+    max-width: 475px;
     height: 174px;
     color: #111111;
  }
@@ -70,7 +70,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    width: 445px;
+    max-width: 445px;
     height: 56px;
     color: #111111;
     mix-blend-mode: normal;
@@ -81,7 +81,7 @@ body{
  .form{
     display: flex;
     flex-direction: column;
-    width: 475px;
+    max-width: 475px;
     padding-top: 50px;
     gap: 25px;
 }
@@ -100,7 +100,7 @@ body{
     mix-blend-mode: normal;
     opacity: 0.3;
     border: none;
-    width: 400px;
+    max-width: 400px;
     height: 35px;
     font-size: 22px;
 }
