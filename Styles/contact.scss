@@ -35,11 +35,10 @@ body{
 }
 
 .links{
-display: flex;
-flex-direction: row;
-list-style: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
-
 
  .link1:hover, .link2:hover{
     color: #4A4FF2;
@@ -60,66 +59,74 @@ list-style: none;
 
  .text-container-item1{
     font-weight: 700;
-font-size: 40px;
-line-height: 55px;
-width: 475px;
-height: 174px;
-color: #111111;
+    font-size: 40px;
+    line-height: 55px;
+    width: 475px;
+    height: 174px;
+    color: #111111;
  }
 
  .text-container-item2{
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-width: 445px;
-height: 56px;
-color: #111111;
-mix-blend-mode: normal;
-opacity: 0.8;
+    font-size: 16px;
+    line-height: 26px;
+    width: 445px;
+    height: 56px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
  }
 
  .form{
-display: flex;
-flex-direction: column;
-width: 475px;
-padding-top: 50px;
-gap: 25px;
-
+    display: flex;
+    flex-direction: column;
+    width: 475px;
+    padding-top: 50px;
+    gap: 25px;
 }
 
 .form-text{
     font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-color: #111111;
-mix-blend-mode: normal;
-opacity: 0.6;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
 
 .form-input{
     background: #FFFFFF;
-mix-blend-mode: normal;
-opacity: 0.3;
-border: none;
-
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border: none;
+    width: 400px;
+    height: 35px;
+    font-size: 22px;
 }
-.form-input--border-bottom{
-    border-bottom: 1px solid #979797;
 
+.form-input--border-bottom{
+    border-bottom: 1px solid #979797;  
+}
+
+.form-input:hover{
+    background: #f1ecec;
 }
 
  .button{
     height: 50px;
-width: 125px;
-border-radius: 0px;
-
+    width: 125px;
+    border-radius: 0px;
     background: #4A4FF2;
  }
 
+ .button:hover{
+    background: #131674; 
+}
+
  .btn-submit{
     font-weight: 700;
-font-size: 16px;
-line-height: 20px;
+    font-size: 16px;
+    line-height: 20px;
     color: #FFFFFF;
  }
 
@@ -150,4 +157,8 @@ line-height: 20px;
     margin-top: 20px;
     margin: 10px;
   }
+
+  .socialslogo1:hover, .socialslogo2:hover, .socialslogo3:hover{
+    width: 20px;
+ }
  

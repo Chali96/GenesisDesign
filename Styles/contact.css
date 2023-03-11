@@ -124,10 +124,17 @@ body {
   mix-blend-mode: normal;
   opacity: 0.3;
   border: none;
+  width: 400px;
+  height: 35px;
+  font-size: 22px;
 }
 
 .form-input--border-bottom {
   border-bottom: 1px solid #979797;
+}
+
+.form-input:hover {
+  background: #f1ecec;
 }
 
 .button {
@@ -135,6 +142,10 @@ body {
   width: 125px;
   border-radius: 0px;
   background: #4A4FF2;
+}
+
+.button:hover {
+  background: #131674;
 }
 
 .btn-submit {
@@ -172,4 +183,8 @@ body {
 .socialslogo img {
   margin-top: 20px;
   margin: 10px;
+}
+
+.socialslogo1:hover, .socialslogo2:hover, .socialslogo3:hover {
+  width: 20px;
 }
