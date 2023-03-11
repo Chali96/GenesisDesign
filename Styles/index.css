@@ -1451,32 +1451,31 @@ body {
 /* Grid-container Ends*/
 /* Welovetext Starts*/
 .welovetext {
-  color: #111111;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 100px;
+  width: 1079px;
+  height: 206px;
+  padding-left: 100px;
 }
 
 .welovepara {
-  width: 635px;
+  width: 595px;
   height: 251px;
   font-weight: 700;
   font-size: 28px;
   line-height: 38px;
+  padding-bottom: 40px;
+  padding-right: 340px;
 }
 
 .multimedia {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  opacity: 0.6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1484,10 +1483,25 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin: 150px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80px;
+  height: 170px;
+}
+
+.linksm {
+  list-style-type: none;
+}
+
+.linkm {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #111111;
+  mix-blend-mode: normal;
+  opacity: 0.6;
 }
 
 /* Welovetext Ends*/
