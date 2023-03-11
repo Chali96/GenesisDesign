@@ -1491,7 +1491,7 @@ body {
 }
 
 /* Welovetext Ends*/
-/* Awwards Starts*/
+/* container-1 Starts*/
 .borderline {
   display: block;
   height: 2px;
@@ -1500,7 +1500,7 @@ body {
   margin-left: 200px;
 }
 
-.Awwwards {
+.container-1 {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 50% 50%;
@@ -1555,9 +1555,8 @@ body {
           flex-direction: column;
 }
 
-/* Awwards Ends*/
+/*Container-2*/
 /* Project Details Page START */
-/*project-detail*/
 .freshTP {
   display: -webkit-box;
   display: -ms-flexbox;

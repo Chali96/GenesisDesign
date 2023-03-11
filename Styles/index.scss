@@ -255,7 +255,9 @@ margin: 150px;
 }
 /* Welovetext Ends*/
 
-/* Awwards Starts*/
+
+
+/* container-1 Starts*/
 .borderline{
     display: block;
     height: 2px;
@@ -264,7 +266,7 @@ margin: 150px;
     margin-left: 200px;
 }
 
-.Awwwards{
+.container-1{
     display: grid;
     grid-template: 50% 50% / 50% 50%;
     color: #111111;
@@ -300,13 +302,13 @@ opacity: 0.6;
 display: flex;
 flex-direction: column;
 }
-/* Awwards Ends*/
 
+
+/*Container-2*/
 
 
 
 /* Project Details Page START */
-/*project-detail*/
 .freshTP{
     display: flex;
     justify-content: flex-start; 
