@@ -36,9 +36,9 @@ body{
 }
 
 .links{
-display: flex;
-flex-direction: row;
-list-style: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
 
@@ -66,25 +66,25 @@ list-style: none;
     margin-top: 70px;
 }
 .textSS{
-font-weight: 700;
-font-size: 22px;
-line-height: 28px;
-letter-spacing: -0.423077px;
-color: #4A4FF2;
+   font-weight: 700;
+   font-size: 22px;
+   line-height: 28px;
+   letter-spacing: -0.423077px;
+   color: #4A4FF2;
 }
 
 .hello-im{
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-color: #111111;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #111111;
 }
 
 .productdesigner{
-font-weight: 700;
-font-size: 40px;
-line-height: 60px;
-color: #4A4FF2;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   color: #4A4FF2;
 }
 .blue{
     color: #4A4FF2;
@@ -99,19 +99,19 @@ color: #4A4FF2;
    font-size: 18px;
     line-height: 23px;
     color: #111111;
-mix-blend-mode: normal;
-opacity: 0.6;
-margin-top: 300px;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+   margin-top: 300px;
 }
 
 .the-line{
     display: block;
-  height: 2px;
-  width: 30px;
-  background-color: black;
-  border-radius: 0px;
-  margin-top: 5px;
-  margin-bottom: 10px;
+   height: 2px;
+   width: 30px;
+   background-color: black;
+   border-radius: 0px;
+   margin-top: 5px;
+   margin-bottom: 10px;
 }
 /* First Section end*/
 
@@ -229,7 +229,7 @@ margin-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center; 
-    width: 1079px;
+    max-width: 1079px;
     height: 206px;
     padding-left: 100px;
     
@@ -260,10 +260,10 @@ height: 170px;
     text-decoration: none;
     font-weight: 400;
     font-size: 18px;
-line-height: 23px;
-color: #111111;
-mix-blend-mode: normal;
-opacity: 0.6;
+    line-height: 23px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.6;
 }
 
 /* Welovetext Ends*/
@@ -287,11 +287,11 @@ opacity: 0.6;
 
 .container-1-item1{
     font-weight: 700;
-font-size: 22px;
-line-height: 28px;
-color: #111111;
-padding-bottom: 290px;
-padding-right: 200px;
+    font-size: 22px;
+    line-height: 28px;
+    color: #111111;
+    padding-bottom: 290px;
+    padding-right: 200px;
 }
 
 .container-1-item2 {
@@ -300,9 +300,8 @@ padding-right: 200px;
     line-height: 23px;
     display: flex;
     flex-direction: column;
-gap: 120px;
-padding-left: 70px;
-
+   gap: 120px;
+    padding-left: 70px;
 }
 
 .container-1-item3{
@@ -311,8 +310,7 @@ padding-left: 70px;
     line-height: 23px;
     display: flex;
     flex-direction: column;
-align-content: space-around;
-
+    align-content: space-around;
 }
 
 .container-1-item4{
@@ -320,8 +318,8 @@ align-content: space-around;
     flex-direction: column;
     gap: 120px;
     font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 
@@ -334,12 +332,12 @@ line-height: 20px;
 
 .Application{
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-mix-blend-mode: normal;
-opacity: 0.6;
-display: flex;
-flex-direction: column;
+    font-size: 16px;
+    line-height: 26px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+   display: flex;
+   flex-direction: column;
 }
 
 
@@ -371,7 +369,7 @@ flex-direction: column;
 .container-2-item3{
     display: flex;
     flex-direction: column;
-align-content: space-around;
+   align-content: space-around;
 
 }
 
@@ -408,17 +406,17 @@ align-content: space-around;
     justify-content: flex-start; 
     text-align: start;
     flex-direction: column;
-    width: 635px;
+    max-width: 635px;
     height: 251px; 
     margin-left: 50px;
 }
 
 .freshtext{
-font-weight: 700;
-font-size: 40px;
-line-height: 55px;
-margin-top: 100px;
-margin-left: 20px;
+   font-weight: 700;
+   font-size: 40px;
+    line-height: 55px;
+   margin-top: 100px;
+   margin-left: 20px;
 }
 
 .freshpara{
@@ -434,7 +432,7 @@ margin-left: 20px;
     flex-direction: row;
     justify-content: flex-end;
     margin-left: 700px;
-    width: 335px;
+    max-width: 335px;
     height: 343px;
     left: 900px;
     top: 222px;
@@ -460,7 +458,6 @@ margin-left: 20px;
 
 .footer{
    height: 80px;
-    
 }
 
 .logo{

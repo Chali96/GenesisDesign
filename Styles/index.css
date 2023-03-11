@@ -1460,7 +1460,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1079px;
+  max-width: 1079px;
   height: 206px;
   padding-left: 100px;
 }
@@ -1691,7 +1691,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 635px;
+  max-width: 635px;
   height: 251px;
   margin-left: 50px;
 }
@@ -1724,7 +1724,7 @@ body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-left: 700px;
-  width: 335px;
+  max-width: 335px;
   height: 343px;
   left: 900px;
   top: 222px;
