@@ -270,7 +270,6 @@ margin: 150px;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
-    margin: 100px;
 }
 
 .container-1-item1{
@@ -278,6 +277,8 @@ margin: 150px;
 font-size: 22px;
 line-height: 28px;
 color: #111111;
+padding-bottom: 290px;
+padding-right: 200px;
 }
 
 .container-1-item2 {
@@ -286,7 +287,9 @@ color: #111111;
     line-height: 23px;
     display: flex;
     flex-direction: column;
-align-content: space-around;
+gap: 120px;
+padding-left: 70px;
+
 }
 
 .container-1-item3{
@@ -332,13 +335,14 @@ flex-direction: column;
     display: flex;
     justify-content: space-evenly;
     align-items: center; 
-    margin: 100px;    
 }
 
 .container-2-item1{
     font-weight: 700;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 23px;
+    padding-bottom: 290px;
+    padding-right: 200px;
 
 }
 
@@ -348,7 +352,7 @@ flex-direction: column;
     line-height: 23px;
     display: flex;
     flex-direction: column;
-align-content: space-around;
+    gap: 120px;
 }
 
 .container-2-item3{
@@ -376,12 +380,12 @@ align-content: space-around;
 
 
 .container-2-item4{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px; 
     display: flex;
     flex-direction: column;
-align-content: space-around;
+    gap: 120px;
 }
 
 
@@ -441,8 +445,21 @@ margin-left: 20px;
 
 /* Footer starts */
 
+.footer{
+   height: 80px;
+    
+}
 
+.logo{
+    padding-left: 70px;
+}
+
+.links{
+    padding-left: 160px;
+}
  .socialslogo img{
    margin-top: 20px;
    margin: 10px;
  }
+
+
