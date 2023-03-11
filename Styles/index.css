@@ -1551,9 +1551,6 @@ body {
 }
 
 .container-1-item4 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 23px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1561,8 +1558,10 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: distribute;
-      align-content: space-around;
+  gap: 120px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .strong1 {

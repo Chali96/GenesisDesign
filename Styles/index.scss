@@ -300,12 +300,12 @@ align-content: space-around;
 }
 
 .container-1-item4{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 23px;
     display: flex;
     flex-direction: column;
-align-content: space-around;
+    gap: 120px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
 }
 
 
