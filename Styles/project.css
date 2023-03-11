@@ -82,7 +82,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   line-height: 55px;
-  width: 495px;
+  max-width: 495px;
   height: 130px;
 }
 
@@ -92,7 +92,7 @@ body {
   line-height: 26px;
   mix-blend-mode: normal;
   opacity: 0.8;
-  width: 635px;
+  max-width: 635px;
   height: 222px;
 }
 

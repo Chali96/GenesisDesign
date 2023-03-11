@@ -35,9 +35,9 @@ body{
 }
 
 .links{
-display: flex;
-flex-direction: row;
-list-style: none;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
 }
 
  .link1:hover, .link2:hover{
@@ -60,11 +60,11 @@ list-style: none;
 }
 
 .text-container-item1{
-font-weight: 700;
-font-size: 40px;
-line-height: 55px;
-width: 495px;
-height: 130px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 55px;
+   max-width: 495px;
+   height: 130px;
 }
 
 .text-container-item2{
@@ -73,8 +73,8 @@ height: 130px;
     line-height: 26px;
     mix-blend-mode: normal;
     opacity: 0.8;
-    width: 635px;
-height: 222px;
+    max-width: 635px;
+    height: 222px;
 }
 
 
@@ -89,9 +89,9 @@ height: 222px;
 
 .borderline{
     background: white;
-opacity: 0.6;
-border-bottom: 1px solid #979797;
-margin-bottom: 35px;
+    opacity: 0.6;
+    border-bottom: 1px solid #979797;
+    margin-bottom: 35px;
 }
 
 .LeftDetail{
@@ -125,13 +125,13 @@ margin-bottom: 35px;
     justify-content: center;
     align-content: center;
     text-align: start;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #111111;
-mix-blend-mode: normal;
-opacity: 0.8;
-margin: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 30px;
 
 }
 
@@ -143,7 +143,6 @@ margin: 30px;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
-
 }
 
 
@@ -151,7 +150,6 @@ margin: 30px;
 
 .footer{
     height: 80px;
-     
  }
  
  .logo{
