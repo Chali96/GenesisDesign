@@ -1509,16 +1509,7 @@ body {
   color: #111111;
 }
 
-.BestNavi {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 50% 50%;
-  -ms-grid-columns: 50% 50%;
-      grid-template: 50% 50%/50% 50%;
-  color: #111111;
-}
-
-.SiteOf {
+.container-1-item2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
