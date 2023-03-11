@@ -74,7 +74,7 @@ body {
 }
 
 .text-container-left {
-  padding-right: 350px;
+  padding-right: 80px;
 }
 
 .text-container-item1 {
@@ -95,6 +95,32 @@ body {
   color: #111111;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 475px;
+  padding-top: 50px;
+}
+
+.button {
+  height: 50px;
+  width: 125px;
+  border-radius: 0px;
+  background: #4A4FF2;
+}
+
+.btn-submit {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
 
 /*image-container*/

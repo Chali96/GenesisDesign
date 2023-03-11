@@ -55,7 +55,7 @@ list-style: none;
     
  }
  .text-container-left{
-    padding-right: 350px;
+    padding-right: 80px;
  }
 
  .text-container-item1{
@@ -79,8 +79,30 @@ opacity: 0.8;
  }
 
  .form{
-    
+display: flex;
+flex-direction: column;
+width: 475px;
+padding-top: 50px;
+
+}
+
+ .button{
+    height: 50px;
+width: 125px;
+border-radius: 0px;
+
+    background: #4A4FF2;
  }
+
+ .btn-submit{
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+    color: #FFFFFF;
+ }
+
+
+
 /*image-container*/
 .image-container{
     display: flex;
